@@ -42,7 +42,7 @@ section {
       should have all of formatting it needs */
    width: 327px;
    float: left;
-   height: 250px;
+   height: 280px;
    background: #ebebeb; 
    border-right: 15px solid #777;
 }
@@ -50,7 +50,7 @@ section {
 aside {
     width: 153px;
     float: left;
-    height: 250px;
+    height: 280px;
 	background: #ebebeb; 
 }   
 
@@ -68,11 +68,13 @@ footer {
     background-color: #777;
 	color: #ebebeb;
 	margin: 5px;
+	
 
 }
 
 .flipped {
     color: #ebebeb;
+	padding-top: 15px;
 }
 
 .flippedback {
@@ -80,6 +82,7 @@ footer {
 	border: 5px solid #777;
 	height: 40px;
 	color: #777;
+	padding-top: 15px;
 	
 }
 h1 {
