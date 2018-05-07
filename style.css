@@ -13,6 +13,7 @@ body {
     margin: auto;
     width: 50%;
     text-align: center;
+    
 
 }
 
@@ -25,20 +26,26 @@ header {
 }
 
 nav {
-padding-bottom: 20px;
-padding-top: 10px;
+
 }
 
 section {
-   
+   width: 65%;
+   float: left;
+   height: 150px;
 }
 
 aside {
+    width: 34%;
+    float: left;
+    height: 150px;
     
 }   
 
 footer {
-padding-top: 20px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 article {
