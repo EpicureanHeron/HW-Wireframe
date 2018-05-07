@@ -6,16 +6,30 @@ body {
     font-size: 18px;
 }
 
+/* there is a lot of overlapping requirements, could condense them all into a specific CLASS and save a lot of room /*
+
+/* the instructions say, "3. The widths of each section should be:
+   * section: 495px" but...that is only 51% of the body's 960px...and there is only 1 formal "section" 
+   need to look into this */
 header {
     background: #ebebeb;
+    width: 495px; 
+    /*the below code tosses the element in the center */
+    margin: auto;
+    width: 50%;
 }
 
 nav {
     background: #ebebeb;
+    width: 495px; 
+    /*the below code tosses the element in the center */
+    margin: auto;
+    width: 50%;
 }
 
 section {
     background: #ebebeb;
+
 }
 
 aside {
@@ -24,8 +38,23 @@ aside {
 
 footer {
     background: #ebebeb;
+    width: 495px; 
+    /*the below code tosses the element in the center */
+    margin: auto;
+    width: 50%;
 }
 
 article {
+    color: #ebebeb;
+    background: #777;
+}
 
+h1 {
+    color: #777;
+    background: #ebebeb;
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
 }
