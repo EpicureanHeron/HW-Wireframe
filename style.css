@@ -10,27 +10,31 @@ body {
     background: #ebebeb; 
     text-align: center;
     /*the below code tosses the element in the center. Updated it from margin: auto to both left and right in hopes to have some control over the top and bottom margins */
-    margin: auto;
-   /*margin-left: auto;
+    /*margin: auto;
+   margin-left: auto;
     margin-right: auto;*/
-    width: 50%;
+    width: 495px;
+	margin-left: 232.5px;
     
     /* current issue: margins! because I am using this margin/width hack to center everything on the page, I 
     cannot add margins to anything. Padding doesn't seem to do the trick, it needs to be margins I think.
     I have tried to use the above margin-left and margin-right instead of the margin auto (which I assume does top, left, right, and bottom"
     but the nested article spills out of the bottom and over the footer */
-
   
 }
 
 
 header {
-  
+	border-bottom: 5px solid #777 ;
+	padding-bottom: 5px;
+	padding-top: 5px;
    
 }
 
 nav {
-
+ 	border-bottom: 10px solid #777 ;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 div {
@@ -41,29 +45,40 @@ section {
       /*maybe I can use px instead of % on width to allow room for margins. Might need to use an ID because it seems when I mess around with 
       width at an element level, the class width: auto supersedes it. This might be fine because everythign is already in a <div> that
       should have all of formatting it needs */
-   width: 64%;
+   width: 327px;
    float: left;
-   height: 150px;
+   height: 200px;
+   background: #ebebeb; 
+   border-right: 10px solid #777;
   
 }
 
 aside {
-    width: 30%;
+    width: 158px;
     float: left;
-    height: 150px;
+    height: 200px;
+	background: #ebebeb; 
+
     
 }   
 
 footer {
+	border-top: 10px solid #777;
     content: "";
     clear: both;
     display: table;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+
+
    
 }
 
 article {
     color: #ebebeb;
-    background: #777;
+    
+
 }
 
 h1 {
