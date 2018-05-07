@@ -7,19 +7,23 @@ body {
 }
 
 .sectionformatting {
-    background: #ebebeb;
-    width: 495px; 
-    /*the below code tosses the element in the center */
-    margin: auto;
-    width: 50%;
+    background: #ebebeb; 
     text-align: center;
+    /*the below code tosses the element in the center. Updated it from margin: auto to both left and right in hopes to have some control over the top and bottom margins */
+    margin: auto;
+   /*margin-left: auto;
+    margin-right: auto;*/
+    width: 50%;
     
+    /* current issue: margins! because I am using this margin/width hack to center everything on the page, I 
+    cannot add margins to anything. Padding doesn't seem to do the trick, it needs to be margins I think.
+    I have tried to use the above margin-left and margin-right instead of the margin auto (which I assume does top, left, right, and bottom"
+    but the nested article spills out of the bottom and over the footer */
 
+  
 }
 
-/* the instructions say, "3. The widths of each section should be:
-   * section: 495px" but...that is only 51% of the body's 960px...and there is only 1 formal "section" 
-   need to look into this */
+
 header {
   
    
@@ -29,14 +33,22 @@ nav {
 
 }
 
+div {
+   
+}
+
 section {
-   width: 65%;
+      /*maybe I can use px instead of % on width to allow room for margins. Might need to use an ID because it seems when I mess around with 
+      width at an element level, the class width: auto supersedes it. This might be fine because everythign is already in a <div> that
+      should have all of formatting it needs */
+   width: 64%;
    float: left;
    height: 150px;
+  
 }
 
 aside {
-    width: 34%;
+    width: 30%;
     float: left;
     height: 150px;
     
@@ -46,6 +58,7 @@ footer {
     content: "";
     clear: both;
     display: table;
+   
 }
 
 article {
