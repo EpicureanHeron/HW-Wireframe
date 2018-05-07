@@ -25,20 +25,15 @@ body {
 
 
 header {
-	border-bottom: 5px solid #777 ;
+	border-bottom: 15px solid #777 ;
 	padding-bottom: 5px;
 	padding-top: 5px;
-   
 }
 
 nav {
- 	border-bottom: 10px solid #777 ;
+ 	border-bottom: 15px solid #777 ;
 	padding-bottom: 5px;
 	padding-top: 5px;
-}
-
-div {
-   
 }
 
 section {
@@ -47,46 +42,47 @@ section {
       should have all of formatting it needs */
    width: 327px;
    float: left;
-   height: 200px;
+   height: 250px;
    background: #ebebeb; 
-   border-right: 10px solid #777;
-  
+   border-right: 15px solid #777;
 }
 
 aside {
-    width: 158px;
+    width: 153px;
     float: left;
-    height: 200px;
+    height: 250px;
 	background: #ebebeb; 
-
-    
 }   
 
 footer {
-	border-top: 10px solid #777;
+	border-top: 15px solid #777;
     content: "";
     clear: both;
     display: table;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	
-
-
-   
+  
 }
 
-article {
+#article {
+    background-color: #777;
+	color: #ebebeb;
+	margin: 5px;
+
+}
+
+.flipped {
     color: #ebebeb;
-    
-
 }
 
+.flippedback {
+	background-color: #ebebeb;
+	border: 5px solid #777;
+	height: 40px;
+	color: #777;
+	
+}
 h1 {
     color: #777;
-   
-}
-
-p {
-    color: #777;
-    
+  
 }
