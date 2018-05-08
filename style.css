@@ -6,10 +6,10 @@ body {
     font-size: 18px;
 }
 
-.sectionformatting {
+.sectionformatting { 
     background: #ebebeb; 
     text-align: center;
-    width: 495px;
+    width: 960px;
 	margin-left: 232.5px;
 }
 
@@ -31,7 +31,7 @@ section {
       /*maybe I can use px instead of % on width to allow room for margins. Might need to use an ID because it seems when I mess around with 
       width at an element level, the class width: auto supersedes it. This might be fine because everythign is already in a <div> that
       should have all of formatting it needs */
-   width: 327px;
+   width: 495px;
    float: left;
    height: 300px;
    background: #ebebeb; 
@@ -39,7 +39,7 @@ section {
 }
 
 aside {
-    width: 153px;
+    width: 450px;
     float: left;
     height: 300px;
 	background: #ebebeb; 
@@ -69,11 +69,12 @@ footer {
 
 .flippedback {
 	background-color: #ebebeb;
-	border: 5px solid #777;
+    border: 10px solid #777;
 	height: 40px;
-	color: #777;
-	padding-top: 15px;
-	
+    color: #777;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 h1 {
     color: #777;
