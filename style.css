@@ -58,7 +58,7 @@ footer {
 #article {
     background-color: #777;
 	color: #ebebeb;
-	margin: 5px;
+	margin: 15px;
 
 }
 
@@ -69,14 +69,26 @@ footer {
 
 .flippedback {
 	background-color: #ebebeb;
-    border: 10px solid #777;
+    border-right: 10px solid #777;
+    border-left: 10px solid #777;
 	height: 40px;
     color: #777;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+
 }
 h1 {
-    color: #777;
-  
+    color: #777; 
+}
+
+article h2 {
+    padding-top: 10px;
+    margin-bottom: 1px;
+    border-top: 10px solid #777;
+    border-bottom: 5px solid #777;
+}
+
+article p {
+    padding-top: 10px;
+    margin-top: 0px;
+    border-top: 5px solid #777;
+    border-bottom: 10px solid #777;
 }
